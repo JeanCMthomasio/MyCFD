@@ -28,14 +28,16 @@ Line(19) = {84, 88};
 Line(20) = {88, 85};
 Line(21) = {88, 0};
 
+
+N = 20;
 //Front
-Transfinite Curve {9, 6} = 10 Using Progression 1;
+Transfinite Curve {9, 6} = N Using Progression 1;
 //Upper and lower surface
-Transfinite Curve {5, 14, 7,  10} = 20 Using Progression 1;
+Transfinite Curve {5, 14, 7,  10} = N*2 Using Progression 1;
 //Perpendicualr direction
-Transfinite Curve {17, 15, 18, 16, 20, 19} = 10 Using Progression 1;
+Transfinite Curve {17, 15, 18, -16, -20, 19} = N Using Progression 1;
 //Wake
-Transfinite Curve {13, 21, 11} = 10 Using Progression 1;
+Transfinite Curve {13, 21, 11} = N Using Progression 1;
 
 // Front Domain
 Curve Loop(1) = {17, 6, -18, -9};
