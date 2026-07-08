@@ -18,7 +18,6 @@ Works on unstructured meshes and can handle both simple cases like the lid-drive
 
 - `FiniteVolumes.ipynb` — Contains the full solver, from the mesh handling to the PISO loop, with the theory explained along the way.
 - `FiniteDiferences.ipynb` — Earlier version of the solver using the Finite Difference Method on a structured grid.
-- `frontEnd.py` — Small GUI (NiceGUI) to run the finite difference version interactively.
 - `mesh/` — Geometry (`.geo`) and mesh files, including the NACA 0012 airfoil.
 
 ## How it works
